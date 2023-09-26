@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en"> <!-- Site écrit en anglais -->
+<!-- En-tête -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Encodage de la page -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursinan | School Project</title> <!-- Titre du site -->
+
+    <!-- Lien avec les fichiers css -->
+    <link rel="stylesheet" href="./css/style_general.css">
+    <link rel="stylesheet" href="./css/style_header.css">
+    <link rel="stylesheet" href="./css/style_main.css">
+    <link rel="stylesheet" href="./css/style_showcase.css">
+    <link rel="stylesheet" href="./css/style_contact.css">
+    <link rel="stylesheet" href="./css/style_footer.css">
+
+    <!-- Lien avec les fichiers css en responsive -->
+    <link rel="stylesheet" href="./css/responsive/style_header_r.css">
+    <link rel="stylesheet" href="./css/responsive/style_main_r.css">
+    <link rel="stylesheet" href="./css/responsive/style_showcase_r.css">
+    <link rel="stylesheet" href="./css/responsive/style_contact_r.css">
+    <link rel="stylesheet" href="./css/responsive/style_footer_r.css">
+</head>
+
+<!-- Corps -->
+
+<body>
+
+    <!-- Partie Header -->
+    <section id="Header">
+        <!-- Image de fond -->
+        <img src="./image/header-background.jpg" alt="Image de fond, avec une lampe sur le côté" class="background">
+
+        <nav> <!-- Menu -->
+
+            <!-- Image du logo -->
+            <img src="./image/logo Kursinan.png" alt="Image du logo, où c'est écrit Kursinan" class="logo">
+
+            <!-- Menu avec des liens pour accéder aux différentes sections proposées  -->
+            <div class="menu">
+                <a href="#Main_Section" id="Collect">Collection</a>
+            </div>
+
+            <div class="menu">
+                <a href="#Section_Showcase" id="Comp">Company</a>
+            </div>
+
+            <div class="menu">
+                <a href="#Contact_Section" id="Cont">Contact Us</a>
+            </div>
+        </nav>
+
+        <h1>The best collection of<br>lamp is here</h1> <!-- Titre contenue dans le Header -->
+
+        <div class="ligne"></div> <!-- Création d'une ligne en desktop -->
+
+        <hr> <!-- Création d'une ligne en responsive -->
+
+        <!-- Texte de présentation -->
+        <p>
+            Find various types of quality lamps, and international standards. Only with this one website you can see and
+            buy high quality lamps.
+            Immediately order the best lamp of your choice before the stock tuns out!
+        </p>
+    </section>
+
+    <!-- Partie Main -->
+    <section id="Main_Section">
+        <!-- Première disposition pour les mettre côte à côte -->
+        <div class="boite_1">
+            <h1>Why<br class="sup"> should<br>choose our<br class="sup"> product ?</h1>
+
+            <div>
+
+                <!-- Deuxième disposition pour les mettre côte à côte (les cercles et les textes) -->
+                <div class="boite_2">
+                    <h2 class="cercle">1</h2>
+                    <div>
+                        <h2 id="titre1">Quality is unquestionable</h2>
+                        <p id="text1">We always prioritize customer satisfaction over everything.</p>
+                    </div>
+                </div>
+
+                <!-- Deuxième disposition pour les mettre côte à côte (les cercles et les textes) -->
+                <div class="boite_2">
+                    <h2 class="cercle cercle2">2</h2>
+                    <div class="dispo">
+                        <h2 id="titre2">International standard</h2>
+                        <p id="text2">We already have international standards, and we often import abroad.</p>
+                    </div>
+                </div>
+
+                <!-- Deuxième disposition pour les mettre côte à côte (les cercles et les textes) -->
+                <div class="boite_2">
+
+                    <h2 class="cercle cercle3">3</h2>
+                    <div>
+                        <h2 id="titre3">Long warranty</h2>
+                        <p id="text3">All the products we provide have a long warranty of up to 2-3 years.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="#Contact_Section">Contact us for more informations ↘</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partie Showcase -->
+    <section id="Section_Showcase">
+        <!-- Disposition pour les images avec des titres pour chaque image -->
+        <div>
+            <img src="./image/lamp magazine.jpg" alt="Image d'une lampe">
+            <h2>Modern Lamp<br>Style 1</h2>
+        </div>
+
+        <div>
+            <img src="./image/lamp over.jpg" alt="Image d'une lampe" id="photo_2">
+            <h2>Modern Lamp<br>Style 2</h2>
+        </div>
+
+        <div>
+            <img src="./image/lamp sofa.jpg" alt="Image d'une lampe" id="photo_3">
+            <h2>Modern Lamp<br>Style 3</h2>
+        </div>
+    </section>
+
+    <!-- Partie Contact -->
+    <section id="Contact_Section">
+        <h1>Contact</h1> <!-- Titre de la partie -->
+
+        <div class="ligne2"></div> <!-- Création d'une ligne -->
+
+        <div> <!-- Partie 1 -->
+            <form action="#"> <!-- Balise form pour créer un formulaire -->
+                <label class="espace">Your name</label> <!-- Indication pour le input -->
+                <input type="text" placeholder="Tom Ford"> <!-- Saisie -->
+
+                <label class="espace">Phone</label> <!-- Indication pour le input -->
+                <input type="tel" placeholder="+44 11 2222 3333"> <!-- Saisie -->
+
+                <label class="espace">Email</label> <!-- Indication pour le input -->
+                <input type="email" placeholder="hello@contact.fr"> <!-- Saisie -->
+
+                <input type="submit" value="Send" class="submitButton"> <!-- Bouton pour envoyer -->
+            </form>
+        </div>
+
+        <div class="Coordonnee"> <!-- Partie 2 -->
+
+            <!-- Coordonnée de l'agence -->
+            <h2 class="titreh2_1">Address</h2>
+            <p class="para1">11A Charing Cross Road, London</p>
+
+            <h2 class="titreh2_2 space">Email</h2>
+            <p class="para2">contact@cursinan.com</p>
+
+            <h2 class="titreh2_3 space">Phone</h2>
+            <p class="para3">+44 20 7293 0972</p>
+        </div>
+    </section>
+
+    <!-- Partie Footer-->
+    <section id="Footer">
+        <footer> <!-- Balise footer pour le pied de page -->
+            <img src="./image/logo Kursinan.png" alt="Image du logo, où c'est écrit Kursinan"> <!-- Image du logo -->
+            <div>© 2022, All rights reserved.</div> <!-- Texte -->
+        </footer>
+    </section>
+
+</body>
+
+</html>

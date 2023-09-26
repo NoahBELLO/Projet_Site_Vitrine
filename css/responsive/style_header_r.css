@@ -1,0 +1,70 @@
+/* Responsive de la section Header */
+
+@media screen and (max-width: 500px) {
+
+    /* Dimension de la section Header en responsive */
+    #Header {
+        padding-bottom: 50px;
+        width: 100%;
+        height: 100vh;
+    }
+
+    /* Dimension et apparence de image de fond en responsive */
+    #Header .background {
+        width: 100%;
+        height: 1000px;
+        opacity: 0.85;
+    }
+
+    /* Menu */
+    /* Disposition du menu en responsive */
+    #Header nav {
+        margin: -1020px 0px 0px 170px;
+        flex-direction: column;
+    }
+
+    /* Disposition de l'image logo en responsive */
+    #Header nav img {
+        margin-right: 76px;
+        margin-bottom: 40px;
+    }
+
+    /* Disposition des liens en responsive */
+    #Header div {
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+
+    /* Texte */
+
+    /* Disposition du paragraphe en responsive */
+    #Header p {
+        width: 342px;
+        left: 50px;
+        top: 460px;
+    }
+
+    /* Décoration pour le titre et disposition en responsive */
+    #Header h1 {
+        font-size: 30px;
+        left: 50px;
+        top: 300px;
+        width: 400px;
+    }
+
+    /* Disparition de la ligne du Desktop */
+    #Header .ligne {
+        display: none;
+    }
+
+    /* Création de la ligne en responsive */
+    #Header hr {
+        display: flex;
+        position: absolute;
+        height: 1px;
+        width: 400px;
+        left: 50px;
+        top: 420px;
+        border: 1px solid var(--blanc);
+    }
+}

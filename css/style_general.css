@@ -1,0 +1,38 @@
+/* CSS Général pour tout le site */
+
+
+/* Création de variable liée à la couleur */
+:root {
+    --bg-color: #f2efef;
+    --noir: #161618;
+    --blanc: #FFFFFF;
+    --place_holder: #696973;
+}
+
+/* Création de 2 polices spécifiques */
+@font-face {
+    font-family: "bold";
+    src: url(../police/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "medium";
+    src: url(../police/Poppins-Medium.ttf);
+}
+
+/* Configuration initial de la page */
+* {
+    font-family: medium;
+    font-size: 18px;
+    margin: 0px;
+}
+
+/* Animation de smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Couleur de fond pour créer de l'opacité */
+html body {
+    background-color: var(--noir);
+}

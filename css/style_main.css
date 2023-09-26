@@ -1,0 +1,140 @@
+/* CSS de la partie Main */
+
+/* Disposition de la section Main */
+#Main_Section {
+    position: relative;
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 100vh;
+}
+
+/* Disposition de la première boîte */
+#Main_Section .boite_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+/* Disposition de la deuxième boîte */
+#Main_Section .boite_2 {
+    position: absolute;
+    display: flex;
+    top: 150px;
+}
+
+/* Disposition et apparence des titres */
+#Main_Section h1 {
+    font-family: bold;
+    font-size: 65px;
+    margin: 150px 400px 238px 117px;
+}
+
+#Main_Section h2 {
+    font-family: bold;
+    font-size: 30px;
+}
+
+/* Précision des disposition des titres et des textes */
+#Main_Section #titre1 {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    top: 12px;
+    right: 260px;
+}
+
+#Main_Section #text1 {
+    position: absolute;
+    width: 428px;
+    height: 54px;
+    top: 64px;
+    right: 230px;
+}
+
+#Main_Section #titre2 {
+    position: absolute;
+    width: 407.58px;
+    height: 41px;
+    right: 250px;
+    top: 170px;
+}
+
+#Main_Section #text2 {
+    position: absolute;
+    width: 425.92px;
+    height: 54px;
+    right: 230px;
+    top: 224px;
+}
+
+#Main_Section #titre3 {
+    position: absolute;
+    width: 407.58px;
+    height: 41px;
+    right: 250px;
+    top: 330px;
+}
+
+#Main_Section #text3 {
+    position: absolute;
+    width: 425.92px;
+    height: 54px;
+    right: 230px;
+    top: 383px;
+}
+
+/* Disposition, dimension et apparence des liens sans action */
+#Main_Section a {
+    color: var(--noir);
+    text-decoration: none;
+    position: absolute;
+    width: 320px;
+    height: 27px;
+    left: 860px;
+    top: 645px;
+    border-bottom: 1px solid var(--noir);
+}
+
+/* Disposition, dimension et apparence des liens quand on survole */
+#Main_Section a:hover {
+    border-bottom: none;
+}
+
+/* Création d'une animation pour le lien */
+#Main_Section a::after {
+    content: "";
+    display: flex;
+    position: absolute;
+    width: 0px;
+    height: 0.99px;
+    background-color: var(--noir);
+    transition: width 500ms ease-in-out;
+}
+
+/* Utilisation de l'animation du lien quand on survole */
+#Main_Section a:hover::after {
+    width: 320px;
+    background-color: var(--noir);
+}
+
+/* Création des cercle et précision pour certains */
+.cercle {
+    margin: 30px 90px 90px 90px;
+    width: 54px;
+    background: var(--blanc);
+    height: 54px;
+    text-align: center;
+    border-radius: 100px;
+    line-height: 55px;
+    position: absolute;
+    right: 601px;
+}
+
+.cercle2 {
+    top: 160px;
+}
+
+.cercle3 {
+    top: 320px;
+}

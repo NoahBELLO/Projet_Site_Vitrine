@@ -1,0 +1,17 @@
+/* Responsive de la section Showcase */
+
+@media screen and (max-width: 500px) {
+
+    /* Disposition de la section Showcase en responsive */
+    #Section_Showcase {
+        flex-direction: column;
+        padding-bottom: 855px;
+    }
+
+    /* Disposition et apparence des titres en responsive */
+    #Section_Showcase h2 {
+        font-size: 25px;
+        margin-left: 50px;
+        margin-top: -135px;
+    }
+}

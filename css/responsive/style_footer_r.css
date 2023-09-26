@@ -1,0 +1,24 @@
+/* Responsive de la section Footer */
+
+@media screen and (max-width:500px) {
+
+    /* Disposition et apparence du footer en responsive */
+    footer {
+        height: 198px;
+        flex-direction: column;
+    }
+
+    /* Dimension et disposition de l'image logo en responsive */
+    #Footer img {
+        width: 153px;
+        height: 31px;
+        margin: 36px 0px 0px 15px;
+    }
+
+    /* Dimension et disposition du texte en responsive */
+    #Footer div {
+        width: 355px;
+        height: 29px;
+        margin: 84px 0px 18px 127px;
+    }
+}

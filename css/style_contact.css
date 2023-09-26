@@ -1,0 +1,106 @@
+/* CSS de la partie Contact */
+
+/* Disposition de la section Contact */
+#Contact_Section {
+    position: relative;
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 100vh;
+}
+
+/* Disposition, dimension, et apparence des titres */
+#Contact_Section h1 {
+    font-family: bold;
+    font-size: 65px;
+    position: absolute;
+    width: 271px;
+    height: 98px;
+    margin: 36px 621px 623px;
+}
+
+/* Disposition et dimension du formulaire */
+#Contact_Section div form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 447.92px;
+    height: 305px;
+    margin: 246px 0px 206px 211px;
+}
+
+/* Disposition, dimension, et apparence des input sans action */
+#Contact_Section div form input {
+    width: 428px;
+    height: 48px;
+    padding: 10px 17.92px 12px 20px;
+    background-color: var(--blanc);
+    box-shadow: 0px 4px 8px rgba(114, 114, 114, 0.08);
+    border: none;
+    border-radius: 10px;
+}
+
+/* Dimension, et apparence des placeholder */
+#Contact_Section div form input::placeholder {
+    color: var(--place_holder);
+    position: absolute;
+    width: 425.92px;
+    height: 26px;
+}
+
+/* Disposition des label */
+#Contact_Section div form .espace {
+    margin-top: 31px;
+}
+
+/* Apparence des input quand on clique */
+#Contact_Section div form input:active {
+    border: 1px solid var(--noir);
+}
+
+/* Disposition, dimension, et apparence du bouton sans action */
+#Contact_Section div form .submitButton {
+    background-color: var(--noir);
+    color: var(--blanc);
+    margin-top: 46px;
+    width: 465px;
+}
+
+/* Apparence du bouton quand on survole avec une animation */
+#Contact_Section div form .submitButton:hover {
+    background-color: var(--blanc);
+    color: var(--noir);
+    transition: 500ms;
+}
+
+/* Apparence du bouton quand on clique */
+#Contact_Section div form .submitButton:active {
+    border: 1px solid var(--noir);
+}
+
+/* Disposition, dimension des coordonnées */
+#Contact_Section .Coordonnee {
+    position: absolute;
+    width: 400px;
+    height: 41px;
+    margin: 308px 262px 0px 850px;
+}
+
+/* Apparence des titres et disposition de certains titre */
+#Contact_Section .Coordonnee h2 {
+    font-family: bold;
+    font-size: 30px;
+}
+
+#Contact_Section .Coordonnee .space {
+    margin-top: 29px;
+}
+
+/* Création d'une ligne */
+#Contact_Section .ligne2 {
+    position: absolute;
+    background-color: black;
+    border: none;
+    width: 1px;
+    height: 387px;
+    margin: 258px 0px 112px 770px;
+}

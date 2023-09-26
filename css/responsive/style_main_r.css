@@ -1,0 +1,99 @@
+/* Responsive de la section Main */
+
+@media screen and (max-width: 500px) {
+
+    /* Disposition de la section Main en responsive*/
+    #Main_Section {
+        padding-bottom: 300px;
+        width: 100%;
+    }
+
+    /* Disposition et apparence des titres en responsive */
+    #Main_Section h1 {
+        font-size: 30px;
+        margin: 75px 100px 0px 24px;
+    }
+
+    #Main_Section h2 {
+        font-size: 25px;
+    }
+
+    #Main_Section #titre1 {
+        width: 300px;
+        right: 45px;
+        top: 90px;
+    }
+
+    #Main_Section #titre2 {
+        right: 47px;
+        top: 307px;
+        width: 300px;
+    }
+
+    #Main_Section #titre3 {
+        right: 97px;
+        top: 510px;
+        width: 250px;
+    }
+
+    /* Disparition de saut de ligne en responsive */
+    #Main_Section .sup {
+        display: none;
+    }
+
+    /* Précision des disposition et dimensions des textes en responsive */
+    #Main_Section #text1 {
+        width: 200px;
+        top: 180px;
+        right: 145px;
+    }
+
+    #Main_Section #text2 {
+        width: 250px;
+        right: 95px;
+        top: 360px;
+    }
+
+    #Main_Section #text3 {
+        width: 195px;
+        right: 151px;
+        top: 560px;
+    }
+
+    /* Disposition des liens en responsive */
+    #Main_Section a {
+        left: 90px;
+        top: 880px;
+    }
+
+    /* Aparence de l'animation pour le lien en responsive */
+    #Main_Section a::after {
+        background-color: var(--bg-color);
+    }
+
+    /* Aparence de l'animation pour le lien quand on survole en responsive */
+    #Main_Section a:hover::after {
+        background-color: var(--noir);
+    }
+
+    /* Apparence des cercles et précision des dispositions pour certains */
+    .cercle {
+        width: 76px;
+        background: var(--blanc);
+        height: 77px;
+        text-align: center;
+        border-radius: 100px;
+        line-height: 75px;
+        position: absolute;
+        right: 310px;
+        margin-top: 145px;
+    }
+
+    .cercle2 {
+        top: 211px;
+    }
+
+    .cercle3 {
+        top: 410px;
+    }
+}

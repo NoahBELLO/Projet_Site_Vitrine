@@ -1,0 +1,110 @@
+/* CSS pour la partie Header */
+
+
+/* Disposition de la section Header */
+#Header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Dimension et apparence de image de fond */
+#Header .background {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+/* Menu */
+
+/* Disposition du menu */
+#Header nav {
+    position: absolute;
+    margin: -770px 0px 0px 117px;
+    display: flex;
+    align-items: center;
+}
+
+/* Dimension de l'image logo */
+#Header nav img {
+    object-fit: contain;
+    width: 163px;
+    height: 33px;
+    margin: 48px 631px 0px 0px;
+}
+
+/* Disposition des liens */
+#Header div {
+    margin: 54px 100px 0px 0px;
+}
+
+/* Décoration du lien sans action */
+#Header a {
+    color: var(--blanc);
+    text-decoration: none;
+}
+
+/* Décoration du lien pour l'animation */
+#Header a::after {
+    content: "";
+    display: flex;
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    background-color: var(--blanc);
+    transition: width 500ms ease-in-out;
+}
+
+/* Décoration du lien avec animation quand on survole avec des précitions pour chaque lien */
+#Header #Collect:hover::after {
+    width: 92px;
+}
+
+#Header #Comp:hover::after {
+    width: 90px;
+}
+
+#Header #Cont:hover::after {
+    width: 101px;
+}
+
+/* Texte */
+
+/* Décoration pour le paragraphe et disposition */
+#Header p {
+    color: var(--blanc);
+    position: absolute;
+    width: 735px;
+    height: 81px;
+    left: 112px;
+    top: 600px;
+}
+
+/* Décoration pour le titre et disposition */
+#Header h1 {
+    position: absolute;
+    font-family: bold;
+    font-size: 65px;
+    color: var(--blanc);
+    width: 955px;
+    height: 213px;
+    left: 117px;
+    top: 300px;
+}
+
+/* Création de ligne pour Desktop */
+#Header .ligne {
+    position: absolute;
+    height: 2px;
+    background-color: var(--blanc);
+    width: 1278px;
+    left: 117px;
+    top: 500px;
+    border: none;
+}
+
+/* Disparition de cette ligne */
+#Header hr {
+    display: none;
+}
